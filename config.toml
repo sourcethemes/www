@@ -1,0 +1,4 @@
+baseURL = "http://sourcethemes.com/"
+languageCode = "en-us"
+title = "Source Themes"
+theme = "st"
