@@ -8,6 +8,11 @@
   HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
+  from = "/academic/*"
+  to = "http://car-park-attendant-sizing-11828.netlify.com/:splat"
+  status = 200
+
+[[redirects]]
   from = "/*"
-  to = "/academic/"
-  status = 301
+  to = "http://car-park-attendant-sizing-11828.netlify.com/"
+  status = 200
