@@ -2,14 +2,16 @@
   publish = "public"
   command = "hugo"
 
-[context.production.environment]
-  HUGO_VERSION = "0.48"
-  HUGO_ENV = "production"
+[build.environment]
+  HUGO_VERSION = "0.53"
   HUGO_ENABLEGITINFO = "true"
+
+[context.production.environment]
+  HUGO_ENV = "production"
 
 [[redirects]]
   from = "/academic/*"
-  to = "http://car-park-attendant-sizing-11828.netlify.com/:splat"
+  to = "http://getacademic.netlify.com/:splat"
   status = 200
 
 [[redirects]]
