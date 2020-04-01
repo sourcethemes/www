@@ -18,3 +18,4 @@
   from = "/"
   to = "https://sourcethemes.com/academic/"
   status = 301
+  force = true
