@@ -11,11 +11,11 @@
 
 [[redirects]]
   from = "/academic/*"
-  to = "http://getacademic.netlify.com/:splat"
+  to = "https://wowchemy.com/:splat"
   status = 200
 
 [[redirects]]
   from = "/"
-  to = "https://sourcethemes.com/academic/"
+  to = "https://wowchemy.com/"
   status = 301
   force = true
