@@ -13,6 +13,7 @@
   from = "/academic/*"
   to = "https://wowchemy.com/:splat"
   status = 301
+  force = true
 
 [[redirects]]
   from = "/"
