@@ -12,7 +12,7 @@
 [[redirects]]
   from = "/academic/*"
   to = "https://wowchemy.com/:splat"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/"
